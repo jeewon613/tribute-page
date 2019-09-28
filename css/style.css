@@ -1,12 +1,18 @@
 body {
   background-color: black;
-  color: ;
-  font-size: ;
-  font-family: 'Gentium Book Basic', serif;
 }
 
-
-p{
-  text-align: center;
-  color: yellow;
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: left;
+  color: #000;
 }
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
