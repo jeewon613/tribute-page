@@ -14,23 +14,61 @@
 
 .grid-item {
   border: 2px solid black;
-  padding: 9em;
+  padding: 6em;
   background-color: papayawhip;
 }
 
 .grid-container {
   grid-template-areas:
-                      "head feat1 feat1"
-                      "feat2 feat1 feat1"
-                      "feat2 feat1 feat1";
+                      "head pic pic"
+                      "gull pic pic"
+                      "gull pic pic"
+                      "gull pic pic";
 
 }
 .one {
   grid-area: head;
 }
 .two {
-  grid-area: feat1;
+  grid-area: pic;
 }
 .three {
-  grid-area: feat2;
+  grid-area: gull;
+}
+
+
+
+
+.grid-container2 {
+  border: 3px dashed purple;
+  padding: 1em;
+/*-- enables grid layout--*/
+  display: grid;
+  grid-gap: 1em 2em;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item2 {
+  border: 2px solid black;
+  padding: 6em;
+  background-color: papayawhip;
+}
+
+.grid-container2 {
+  grid-template-areas:
+                      "one two"
+                      "three four";
+
+}
+.one2 {
+  grid-area: one;
+}
+.two2 {
+  grid-area: two;
+}
+.three2 {
+  grid-area: three;
+}
+.four2 {
+  grid-area: four;
 }
