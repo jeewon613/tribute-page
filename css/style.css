@@ -44,20 +44,19 @@
   padding: 1em;
 /*-- enables grid layout--*/
   display: grid;
-  grid-gap: 1em 2em;
-  grid-template-columns: repeat(2, 1fr);
+  grid-gap: ;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-item2 {
   border: 2px solid black;
-  padding: 6em;
+  padding: 3em;
   background-color: papayawhip;
 }
 
 .grid-container2 {
   grid-template-areas:
-                      "one two"
-                      "three four";
+                      "one two three four";
 
 }
 .one2 {
@@ -71,4 +70,49 @@
 }
 .four2 {
   grid-area: four;
+}
+
+
+
+
+
+
+.grid-container3 {
+  border: 3px dashed purple;
+  padding: 1em;
+/*-- enables grid layout--*/
+  display: grid;
+  grid-gap: 1em 5em;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item3 {
+  border: 2px solid black;
+  padding: 6em;
+  background-color: papayawhip;
+}
+
+.grid-container3 {
+  grid-template-areas:
+                      "one3 two3 three3"
+                      "four3 five3 six3";
+
+}
+.one3 {
+  grid-area: one3;
+}
+.two3 {
+  grid-area: two3;
+}
+.three3 {
+  grid-area: three3;
+}
+.four3 {
+  grid-area: four3;
+}
+.five3 {
+  grid-area: five3;
+}
+.six3 {
+  grid-area: six3;
 }
