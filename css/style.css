@@ -2,78 +2,35 @@
   text-align: center;
   background-color: yellow;
 }
-h2 {
-  font-size: 1.4em; /*-- gives headings a larger size --*/
-  font-weight: 800; /*-- makes headings boldface--*/
-  margin-top: .5em; /*-- adds space outside the border on the top--*/
-  margin-bottom: .5em; /*-- adds space outside the border on the bottom --*/
-  color: #777; /*-- makes headings a lighter color --*/
-}
-p {
-  margin-bottom: 1em; /*-- adds space between multiple paragraphs --*/
-}
-strong {
-  text-transform: uppercase; /*-- makes bolded items all-caps --*/
-}
-/*-- flex container styles --*/
-.flex-container {/*--container styles --*/
-  margin-bottom: 2em;
-  background: #FAFAFA; /*-- sets background to light gray --*/
-  padding: 1em; /*-- adds 1em of padding all around --*/
-  border: 2px dashed blue;
-  display: flex; /*-- sets the display mode--*/
-  flex-direction: row; /*-- sets direction row or column --*/
-  justify-content: space-between; /*-- aligns content on main axis --*/
-  flex-wrap: no-wrap; /*-- determines whether content wraps or not --*/
-}
-.col {/*--common columns styles --*/
-  border: 1px solid red;
-  background: #FFF;
-  padding: .5em;
-  text-align: center; /*-- Aligns only the text --*/
-}
-/*-- flex items --*/
-.left {/*-- styles for first column --*/
-  flex-basis: 20%; /*-- sets the ideal size of the flex item --*/
-  flex-grow: 0; /*-- sets the relative rate at which the item grows --*/
-  order: 0; /*-- sets the order in which the flex item appears --*/
-}
-.center {/*-- styles for second column --*/
-  flex-basis: 50%;
-  flex-grow: 0;
-  order: 0;
-}
-.right {/*-- styles for third column --*/
-  flex-basis: 20%;
-  flex-grow: 0;
-  order: 0;
-}
-/*--block-container styles --*/
-.block-container {
-  display: block; /*-- sets the display mode to block --*/
-  background: #FAFAFA;
+
+.grid-container {
+  border: 3px dashed purple;
   padding: 1em;
-  border: 2px dashed purple;
-  width: 50%; /*-- sets the width equal to half the container size --*/
-  margin: .5em auto; /*-- auto equalizes left and right margins --*/
+/*-- enables grid layout--*/
+  display: grid;
+  grid-gap: 1em 2em;
+  grid-template-columns: repeat(3, 1fr);
 }
-.first {
-  float: none;
+
+.grid-item {
+  border: 2px solid black;
+  padding: 9em;
+  background-color: papayawhip;
 }
-.second {
-  float: none;
+
+.grid-container {
+  grid-template-areas:
+                      "head feat1 feat1"
+                      "feat2 feat1 feat1"
+                      "feat2 feat1 feat1";
+
 }
-.clearfix {
-  clear: both; /*--prevents floated elements from escaping their container--*/
+.one {
+  grid-area: head;
 }
-/*-- Media Queries --*/
-/*--only come into effect when screen is less than 768px wide --*/
-/*--
-@media screen and (max-width: 768px) {
-  .flex-container {
-    flex-direction:column;
-  }
-  .block-container {
-    width: 80%;
-  }
-}--*/
+.two {
+  grid-area: feat1;
+}
+.three {
+  grid-area: feat2;
+}
