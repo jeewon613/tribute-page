@@ -80,6 +80,7 @@
 
 
 .grid-container3 {
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   border: 3px dashed black;
   padding: 1em;
 /*-- enables grid layout--*/
