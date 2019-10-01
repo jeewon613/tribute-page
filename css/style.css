@@ -14,7 +14,7 @@ body{
 
 .grid-container {
   border: 3px dashed white;
-  padding: 1em;
+  padding: 5em;
   margin: 2em;
   display: grid;
   grid-gap: 1em 2em;
@@ -126,8 +126,7 @@ nav {
 .grid-container3 {
   background-image: url("https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/s480x480/47690274_377888796355214_3347241544442522007_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&oh=2b6ab06b6b66e8cffc921d83a53ba743&oe=5DF7542B&ig_cache_key=MTk1ODk1MTk3NDUxNjU4OTg1MQ%3D%3D.2");
   border: 3px dashed white;
-  padding: 1em;
-/*-- enables grid layout--*/
+  padding: 5em;
   display: grid;
   grid-gap: 1em 5em;
   margin: 2em;
