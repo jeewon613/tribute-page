@@ -37,10 +37,6 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /* Grouping content
    ========================================================================== */
@@ -77,20 +73,12 @@ a {
   background-color: transparent;
 }
 
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
 
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
   text-decoration: underline dotted; /* 2 */
 }
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
 
 b,
 strong {
@@ -145,9 +133,6 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 
-img {
-  border-style: none;
-}
 
 /* Forms
    ========================================================================== */
