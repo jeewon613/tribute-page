@@ -18,8 +18,9 @@ body{
   margin: 2em;
   display: grid;
   grid-gap: 1em 2em;
-  grid-row: auto;
+  grid-row: ;
   grid-template-columns: repeat(5, 1fr);
+
 }
 
 .grid-item {
@@ -47,8 +48,8 @@ body{
 }
 
 img {
-    min*-width: 100%;
-    min*-height: 100%;
+    width: 100%;
+    height: auto;
     display: block;
     object-fit: cover}
 
@@ -189,9 +190,8 @@ nav {
 
   ul.a {
     list-style-type: square;
-    display: flex;
-    flex-wrap: wrap;
-  }
+}
+
 li{
   color:black;
 }
