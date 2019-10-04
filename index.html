@@ -30,24 +30,42 @@
       }
 
     .bg {
-
-      background-image: url("http://chulsa.kr/files/attach/images/68/992/380/8599bbd8327e90bfc14d736b931fd5fe.jpg");
       overflow: hidden;
-      height: 90%;
+      height: 100%;
 
       /* Center and scale the image nicely */
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-image: url("img/hanji.jpg");
+    }
+
+
+
+
     </style>
   </head>
     <body>
       <div class="title">
         <p></p>
-      </div>
-      <div class="bg">
-      </div>
+        <div class="container">
+          <img src="http://chulsa.kr/files/attach/images/68/992/380/8599bbd8327e90bfc14d736b931fd5fe.jpg" class="bg">
+          <div class="overlay">
+            <div class="text">Gyeongbokgung Palace</div>
+          </div>
+        </div>
 
 
       <nav class="container">

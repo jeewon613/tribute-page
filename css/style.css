@@ -1,16 +1,56 @@
-.title {
-  text-align: center;
-  background-color: yellow;
-}
 
-body h1{
+
+.title{
   font-size: 2em
   color: White;
+  text-align: center;
 }
 
 body{
   background-color: #181818;
 }
+
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #181818;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .grid-container {
   border: 2px solid #f6e3bd;
@@ -108,11 +148,11 @@ nav {
 }
 
 .navLinks:hover {
-  color: black;
-  border-left: 3px solid  black;
-  border-right: 3px solid 	 black;
+  color: #d7c4a8;
+  border-left: 3px solid #d7c4a8;
+  border-right: 3px solid #d7c4a8;
   padding: 1em 1em;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .a{
@@ -209,7 +249,7 @@ li{
       position: relative;
       height: 100px;
       width: 100%;
-      background-color: #333333;
+      background-color: #d7c4a8;
   }
 
   p.copyright {
