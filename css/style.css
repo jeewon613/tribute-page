@@ -1,5 +1,5 @@
 h1 {
-  color: #d7c4a8;
+  color: #f6e3bd;
   text-align: center;
   font-size: 2.7em;
 }
@@ -16,6 +16,7 @@ body{
 
 .text {
   color: #181818;
+  font-weight: 600;
   font-size: 50px;
   position: absolute;
   top: 50%;
@@ -26,28 +27,12 @@ body{
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logo2 {
+      min-width: 50%;
+      min-height: 50%;
+      display: block;
+      object-fit: cover
+  }
 
 
 .grid-container {
@@ -56,7 +41,6 @@ body{
   margin: 4em;
   display: grid;
   grid-gap: 1em 2em;
-  grid-row: ;
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: 1fr 2fr;
 
@@ -142,11 +126,12 @@ nav {
   font-size: 1.2em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #f5f5dc;
+  color: #f6e3bd;
+  font-weight: 300;
 }
 
 .navLinks:hover {
-  color: #d7c4a8;
+  color: white;
   border-left: 3px solid #d7c4a8;
   border-right: 3px solid #d7c4a8;
   padding: 1em 1em;
