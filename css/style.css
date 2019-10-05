@@ -71,10 +71,7 @@ body{
   grid-area: gull;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover}
+
 
 
 
@@ -158,14 +155,15 @@ nav {
   justify-content: center;
   grid-template-columns: repeat(3, 0.5fr);
   grid-template-rows: 3fr 2fr;
-
 }
+
 
 .grid-item3 {
   border-radius: 5px;
   border: 0.5px solid #f6e3bd;
-  padding: 6em;
+  padding: 1.5em;
   background-color:#d7c4a8;
+  justify-content: stretch;
 }
 
 .grid-container3 {
@@ -193,6 +191,10 @@ nav {
   grid-area: six3;
 }
 
+.gogoong{
+  height: 5em;
+}
+
 
 
   .flex-container {
@@ -201,7 +203,6 @@ nav {
     padding: 4em;
     display: flex;
     justify-content: center;
-    background-color: ;
   }
 
 
@@ -209,16 +210,20 @@ nav {
     background-color:#d7c4a8;
     width: 11em;
     margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
     border-radius: 5px;
     border: 0.5px solid #f6e3bd;
+    padding: 1.5em
 
   }
 
+
+  
+
+
+
   ul.a {
     list-style-type: square;
+    display: block;
 }
 
 li{
