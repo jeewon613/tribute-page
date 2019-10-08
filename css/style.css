@@ -103,7 +103,6 @@ body{
 
 nav {
   display: grid;
-
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: auto;
   grid-gap: 1em;
@@ -147,7 +146,7 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
   color: #f6e3bd;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .navLinks:hover {
@@ -155,7 +154,7 @@ nav {
   border-left: 3px solid #d7c4a8;
   border-right: 3px solid #d7c4a8;
   padding: 1em 1em;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .a{
